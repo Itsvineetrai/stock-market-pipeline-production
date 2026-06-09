@@ -1,0 +1,52 @@
+[0m20:31:28.265424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290AF29ACF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290AD074CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B162FED0>]}
+
+
+============================== 20:31:28.305243 | f0f05521-f3da-4db0-8c7f-057882dc0559 ==============================
+[0m20:31:28.305243 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:31:28.305997 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\vinee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\vinee\\OneDrive\\Desktop\\stock-market-pipeline-production\\dbt\\logs'}
+[0m20:31:28.815021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f0f05521-f3da-4db0-8c7f-057882dc0559', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290AF9CD350>]}
+[0m20:31:28.855926 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:31:28.858445 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:31:28.860182 [debug] [MainThread]: Command `cli deps` succeeded at 20:31:28.860004 after 0.79 seconds
+[0m20:31:28.860656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B189D590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B19287C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290B17B4350>]}
+[0m20:31:28.861224 [debug] [MainThread]: Flushing usage events
+[0m20:31:34.641275 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:40:24.839410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DBE4CECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DBC2B8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DC085FED0>]}
+
+
+============================== 20:40:24.853012 | 494d926b-9e8b-457f-be59-62be95affbd4 ==============================
+[0m20:40:24.853012 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:40:24.853800 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\vinee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt ', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:40:24.857524 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m20:40:24.858636 [debug] [MainThread]: Command `cli deps` failed at 20:40:24.858477 after 0.20 seconds
+[0m20:40:24.859088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DC0A20180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DC07D30B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016DC079ECF0>]}
+[0m20:40:24.859568 [debug] [MainThread]: Flushing usage events
+[0m20:40:26.628971 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:17.337746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273878CECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273856A8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027389C6BED0>]}
+
+
+============================== 16:26:17.369679 | 69923765-cca6-4831-973f-fa244be216e9 ==============================
+[0m16:26:17.369679 [info ] [MainThread]: Running with dbt=1.11.6
+[0m16:26:17.370402 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\vinee\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:26:17.394328 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m16:26:17.395354 [debug] [MainThread]: Command `cli deps` failed at 16:26:17.395207 after 0.29 seconds
+[0m16:26:17.395781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027389E18180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027389BD70B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027389BA2CF0>]}
+[0m16:26:17.396168 [debug] [MainThread]: Flushing usage events
+[0m16:26:19.243861 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:23:29.626383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A612F52CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A610D20CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6152EBED0>]}
+
+
+============================== 12:23:29.649416 | ac16ef65-2690-450d-89f7-ed06b0155473 ==============================
+[0m12:23:29.649416 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:23:29.650100 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\vinee\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:23:29.673543 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m12:23:29.674575 [debug] [MainThread]: Command `cli deps` failed at 12:23:29.674435 after 0.27 seconds
+[0m12:23:29.674947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A615498180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6152570B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A61521ECF0>]}
+[0m12:23:29.675305 [debug] [MainThread]: Flushing usage events
+[0m12:23:31.395016 [debug] [MainThread]: An error was encountered while trying to flush usage events
