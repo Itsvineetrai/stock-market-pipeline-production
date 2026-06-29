@@ -1,0 +1,8 @@
+apache-airflow==2.10.5
+apache-airflow-providers-postgres
+apache-airflow-providers-docker
+pyspark==3.5.1
+python-dotenv
+boto3
+minio
+pandas

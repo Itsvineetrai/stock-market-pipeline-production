@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Airflow
+airflow/logs/
+airflow/__pycache__/
+
+# MinIO generated data
+storage/
+
+# Spark checkpoints
+checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Build
+dist/
+build/

@@ -2,3 +2,4 @@ kafka-python==2.2.15
 yfinance==0.2.65
 pandas==2.3.0
 python-dotenv==1.1.1
+pyspark==3.5.1
