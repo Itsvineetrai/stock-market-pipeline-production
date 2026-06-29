@@ -4,8 +4,9 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Environment
+# Environment files
 .env
+**/.env
 
 # IDE
 .vscode/
