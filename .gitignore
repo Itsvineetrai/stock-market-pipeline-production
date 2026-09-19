@@ -32,8 +32,13 @@ Thumbs.db
 .DS_Store
 
 # Pytest
+__pycache__/
+*.py[cod]
 .pytest_cache/
 
 # Build
 dist/
 build/
+
+# Debug logs
+*.log
